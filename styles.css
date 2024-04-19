@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#barbeiros {
+    margin-top: 20px;
+}
+
+#lista-barbeiros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.barbeiro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.barbeiro img {
+    max-width: 100%;
+}
+
+.barbeiro h3 {
+    margin-top: 10px;
+}
